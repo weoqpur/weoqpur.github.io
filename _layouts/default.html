@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}{% feed_meta %}
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="{{ '/' | relative_url }}">신무결<span>AI NOTES</span></a><nav aria-label="주 메뉴"><a href="{{ '/' | relative_url }}">글 목록</a><a href="{{ '/about/' | relative_url }}">소개</a><a href="https://profile.radish-mu.cloud/">이력서 ↗</a></nav></header>
+<main>{{ content }}</main>
+<footer>신무결 · AI Engineer <a href="https://github.com/weoqpur">GitHub ↗</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer>
+</body></html>

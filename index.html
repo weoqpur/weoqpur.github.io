@@ -1,0 +1,6 @@
+---
+layout: default
+title: AI 실험과 시행착오의 기록
+---
+<section class="hero"><p class="eyebrow">ENGINEERING JOURNAL</p><h1>실험하고,<br>기록하고, 배웁니다.</h1><p>AI Engineer 신무결의 기술 노트.<br>모델만큼 중요한 데이터와 실행 환경, 그 사이의 고민을 남깁니다.</p></section>
+<section class="entries"><div class="section-heading"><h2>최근 기록</h2><span>{{ site.posts | size }} POSTS</span></div>{% for post in site.posts %}<a class="entry" href="{{ post.url | relative_url }}"><div><p class="eyebrow">{{ post.category }} · {{ post.date | date: "%Y.%m.%d" }}</p><h3>{{ post.title }}</h3><p>{{ post.description }}</p><div class="tags">{% for tag in post.tags %}<span>{{ tag }}</span>{% endfor %}</div></div><span class="arrow" aria-hidden="true">↗</span></a>{% endfor %}</section>

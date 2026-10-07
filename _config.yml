@@ -1,0 +1,15 @@
+title: "신무결의 AI 노트"
+description: "AI 모델 실험, 시스템 구성, 그리고 시행착오를 기록합니다."
+url: "https://weoqpur.github.io"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+markdown: kramdown
+permalink: /posts/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
